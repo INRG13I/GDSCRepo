@@ -1,0 +1,13 @@
+Fuzzing
+
+What is considered as a good output:
+-good format
+-good memory access
+-same output if you run the program 2or more times
+-
+
+
+Generating GOOD random inputs:
+-random bytes to a file(problem if you have structures like the ones for html)
+-inputs according to a formal grammar(in case of string ez in case of structures think bout graphs and trees)
+-use known correct inputs and modify them
